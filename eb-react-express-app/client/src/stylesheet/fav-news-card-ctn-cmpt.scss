@@ -1,0 +1,52 @@
+.news-card-container {
+    width: auto;
+    height: 100%;
+
+    margin: 0px 20px 20px 20px;
+    padding: 0;
+}
+
+span.note-header {
+    padding: 0;
+    float: left;
+
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: ultra-condensed;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .no-results-container {
+        padding: 0;
+        margin: 20px 20px 20px 20px;
+
+        width: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        font-size: 28px;
+        font-family: 'Times New Roman', Times, serif;
+        font-stretch: ultra-condensed;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .no-results-container {
+        padding: 0;
+        margin: 20px 20px 20px 20px;
+    
+        width: auto;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        font-stretch: ultra-condensed;
+    }
+    
+}

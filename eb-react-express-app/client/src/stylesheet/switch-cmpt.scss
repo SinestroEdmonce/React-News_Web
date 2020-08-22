@@ -1,0 +1,13 @@
+div.switch-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: space-around;
+
+    padding: 0;
+    margin: 10px 20px 10px 0;
+}
+
+.switch-btn {
+    display: block !important;
+}

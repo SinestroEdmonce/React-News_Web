@@ -1,0 +1,28 @@
+.news-bar-container {
+    width: auto;
+    height: 100%;
+
+    margin: 0px 20px 10px 20px;
+    padding: 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-around;
+}
+
+.spinner-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+
+    box-sizing: border-box;
+}

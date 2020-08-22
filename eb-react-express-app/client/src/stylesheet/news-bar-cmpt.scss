@@ -1,0 +1,207 @@
+@media only screen and (min-width: 700px) {
+    .news-bar {
+        text-decoration: none;
+        box-shadow: 2px 7px 15px 0px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgb(240, 240, 240);
+        border-radius: 3px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        width: auto;
+        height: auto;
+    
+        padding: 20px 20px 20px 20px;
+        margin: 20px 0 10px 0;
+    
+        cursor: pointer;
+    }
+
+    .news-bar-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        height: 100%;
+        width: 100%;
+    
+        padding: 0;
+        margin: 0 0 0 30px;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .news-bar {
+        text-decoration: none;
+        box-shadow: 2px 7px 15px 0px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgb(240, 240, 240);
+        border-radius: 3px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: space-around;
+    
+        width: auto;
+        height: auto;
+    
+        padding: 20px 20px 20px 20px;
+        margin: 20px 0 10px 0;
+    
+        cursor: pointer;
+    }
+
+    .news-bar-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        height: 100%;
+        width: 100%;
+    
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .news-bar-image {
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 5px;
+
+        width: 390px;
+
+        padding: 5px 5px 5px 5px;
+        margin: 0;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 899px) {
+    .news-bar-image {
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 5px;
+
+        height: 250px;
+        width: 300px;
+
+        padding: 5px 5px 5px 5px;
+        margin: 0;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .news-bar-image {
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 5px;
+
+        width: 100%;
+
+        padding: 5px 5px 5px 5px;
+        margin: 0;
+        object-fit: cover;
+    }
+}
+
+.news-bar-title {
+    padding: 0;
+    margin: 0 0 10px 0;
+
+    vertical-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.news-bar-desc {
+    padding: 0;
+    margin: 0 0 10px 0;
+
+    width: auto;
+    height: fit-content;
+    max-height: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    font-size: 16px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.news-bar-footer {
+    padding: 0;
+    margin: 0 auto;
+
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// Section color
+div.news-bar-tag {
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 0px 7px;
+    border-radius: 5px;
+}
+
+div.world {
+    @extend div.news-bar-tag;
+    background-color: rgb(124,78,255);
+    color: white;
+}
+
+div.politics {
+    @extend div.news-bar-tag;
+    background-color: rgb(65,148,136);
+    color: white;
+}
+
+div.business {
+    @extend div.news-bar-tag;
+    background-color: rgb(70,150,236);
+    color: white;
+}
+
+div.technology {
+    @extend div.news-bar-tag;
+    background-color: rgb(206,220,57);
+    color: black;
+}
+
+div.sports {
+    @extend div.news-bar-tag;
+    background-color: rgb(246,194,68);
+    color: black;
+}
+
+div.anyother {
+    @extend div.news-bar-tag;
+    background-color: rgb(110,117,124);
+    color: white;
+}
+
+span.news-bar-date {
+    font-size: 16px;
+    font-style: italic;
+}
+
+span.news-bar-share {
+    padding: 0;
+    margin: 0 0 0 5px;
+
+    display: inline;
+}

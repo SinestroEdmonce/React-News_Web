@@ -1,0 +1,23 @@
+.fav-bookmark-container {
+    padding: 0;
+    margin: 10px 20px 10px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    color: white;
+}
+
+.fav-bookmark {
+    height: 30px;
+
+    padding: 0;
+}
+
+.fav-bookmark-active {
+    height: 30px;
+    padding: 0;
+
+    display: none;
+}

@@ -1,0 +1,145 @@
+.news-card {
+    text-decoration: none;
+    box-shadow: 2px 7px 10px 0px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 3px;
+
+    padding: 10px 10px 10px 10px;
+    margin: 0 0 10px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    cursor: pointer;
+}
+
+.news-card-image {
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+
+    object-fit: cover;
+}
+
+.news-card-title {
+    padding: 0;
+    margin: 0 0 10px 0;
+
+    word-wrap: break-word;
+    text-align: left;
+
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.news-card-footer {
+    padding: 0;
+    margin: 10px 0 0 0;
+
+    height: 30px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div.news-card-2tags {
+    padding: 0;
+    margin: 0;
+
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+// Section color
+.news-card-tag {
+    font-size: 13px;
+    font-weight: bold;
+
+    padding: 0 3px;
+    border-radius: 5px;
+}
+
+div.world {
+    @extend .news-card-tag;
+    background-color: rgb(124,78,255);
+    color: white;
+}
+
+div.politics {
+    @extend .news-card-tag;
+    background-color: rgb(65,148,136);
+    color: white;
+}
+
+div.business {
+    @extend .news-card-tag;
+    background-color: rgb(70,150,236);
+    color: white;
+}
+
+div.technology {
+    @extend .news-card-tag;
+    background-color: rgb(206,220,57);
+    color: black;
+}
+
+div.sports {
+    @extend .news-card-tag;
+    background-color: rgb(246,194,68);
+    color: black;
+}
+
+div.anyother {
+    @extend .news-card-tag;
+    background-color: rgb(110,117,124);
+    color: white;
+}
+
+div.guardian {
+    @extend .news-card-tag;
+    background-color: rgb(20, 40, 74);
+    color: white;
+
+    margin: 0 0 0 5px;
+    display: none;
+}
+
+div.nytimes {
+    @extend .news-card-tag;
+    background-color: rgb(221, 221, 221);
+    color: black;
+    
+    margin: 0 0 0 5px;
+    display: none;
+}
+
+.news-card-date {
+    font-size: 13px;
+    font-style: italic;
+
+    line-height: 20px;
+}
+
+.news-card-share {
+    padding: 0;
+    margin: 0 0 0 5px;
+
+    display: inline;
+}
+
+.news-card-delete {
+    padding: 0;
+    margin: 0 0 0 5px;
+
+    display: none;
+}

@@ -1,0 +1,26 @@
+@media only screen and (min-width: 700px) and (max-width: 899px) {
+    .search-bar {
+        width: 420px;
+    
+        padding: 0;
+        margin: 10px 5px 10px 0px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .search-bar {
+        width: 280px;
+    
+        padding: 0;
+        margin: 10px 5px 10px 0px;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .search-bar {
+        padding: 0;
+        margin: 10px 5px 10px 0px;
+        display: block !important;
+        flex: 1 1;
+    }
+}
